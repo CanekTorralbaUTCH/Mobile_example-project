@@ -3,6 +3,7 @@ import Hero from '../../components/Hero';
 import Badge from '../../components/Badge';
 import BadgeForm from '../../components/BadgeForm';
 import "./NewBadge.css"
+import api from '../../libs/api';
 
 class NewBadge extends React.Component{
 
@@ -32,6 +33,15 @@ class NewBadge extends React.Component{
 
     handleSubmit = async (event) =>{
         event.preventDefault();
+        this.setState({loading:true, error:null})
+
+        try{
+            await api.badges.create(this.state.form)
+            this.setState({loading:false, error:null})
+            this.props.history.push("/")
+        } catch(error){
+            this.setState({loading:false, error:null})
+        }
     }
 
     render(){
