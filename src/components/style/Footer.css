@@ -8,8 +8,8 @@
     color: lightgray;
     background-color: #455258;
 
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0px;
     z-index: 100;
 }
 

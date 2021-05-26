@@ -15,6 +15,10 @@
     border-top-right-radius: 15px;
 }
 
+.Badge_header img{
+    width: 100%;
+}
+
 .Badge_userInfo{
     position: relative;
 }
