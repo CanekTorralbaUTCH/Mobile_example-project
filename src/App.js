@@ -12,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Main}></Route>
           <Route exact path="/new" component={NewBadge}></Route>
+          <Route component={Error}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>
