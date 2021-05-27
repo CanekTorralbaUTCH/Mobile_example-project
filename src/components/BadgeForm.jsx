@@ -62,39 +62,6 @@ class BadgeForm extends React.Component{
                             onChange={this.props.onChange}
                             value={this.props.formValues.city}/>
                         </div>
-                        <div className="form-group mb-2">
-                            <label className="mb-1">
-                                Followers
-                            </label>
-                            <input 
-                            type="text"
-                            className="form-control"
-                            name="followers"
-                            onChange={this.props.onChange}
-                            value={this.props.formValues.followers}/>
-                        </div>
-                        <div className="form-group mb-2">
-                            <label className="mb-1">
-                                Likes
-                            </label>
-                            <input 
-                            type="text"
-                            className="form-control"
-                            name="likes"
-                            onChange={this.props.onChange}
-                            value={this.props.formValues.likes}/>
-                        </div>
-                        <div className="form-group mb-2">
-                            <label className="mb-1">
-                                Pictures
-                            </label>
-                            <input 
-                            type="text"
-                            className="form-control"
-                            name="pictures"
-                            onChange={this.props.onChange}
-                            value={this.props.formValues.pictures}/>
-                        </div>
                         <button type="submit" className="Submit_Button">Save</button>
                     </form>
                 </div>
