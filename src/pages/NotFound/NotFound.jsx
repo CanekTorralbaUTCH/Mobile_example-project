@@ -8,7 +8,7 @@ const NotFound = (props) =>{
             <div className="Main">
                 <div className="Main_content">
                     <h1 className="Main_title">{props.title || "Page not found"}</h1>
-                    <h3 className="Second_title">{props.title || "Page not found"}</h3>
+                    <h3 className="Second_title">{props.title || "Return to the main page"}</h3>
                 </div>
                 <Hero h={"88vh"}></Hero>
             </div>
