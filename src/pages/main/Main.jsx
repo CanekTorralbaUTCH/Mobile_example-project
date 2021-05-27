@@ -10,6 +10,7 @@ const Main = (props) =>{
                 <div className="Main_content">
                     <h1 className="Main_title">{props.title || "Wilkommen to the landing zone"}</h1>
                     <Button contentText={"Sigin"} link={"/new"}></Button>
+                    <Button contentText={"Login"} link={"/login"}></Button>
                 </div>
                 <Hero h={"88vh"}></Hero>
             </div>
