@@ -13,7 +13,7 @@ function App() {
           <Route exact path="/" component={Main}></Route>
           <Route exact path="/new" component={NewBadge}></Route>
           <Route exact path="/login" component={Login}></Route>
-          <Route component={Error}></Route>
+          <Route component={NotFound}></Route>
         </Switch>
       </Layout>
     </BrowserRouter>

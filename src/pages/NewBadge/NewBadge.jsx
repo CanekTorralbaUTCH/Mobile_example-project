@@ -48,6 +48,9 @@ class NewBadge extends React.Component{
         return(
             <React.Fragment>
                 <Hero h={"15vh"}></Hero>
+                <div className="centered">
+                    <h1>Sigin Page</h1>
+                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-6">
