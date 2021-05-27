@@ -14,7 +14,7 @@ function App() {
           <Route exact path="/" component={Main}></Route>
           <Route exact path="/new" component={NewBadge}></Route>
           <Route exact path="/login" component={Login}></Route>
-          <Route exact path="/sigin" component={SignIn}></Route>
+          <Route exact path="/signin" component={SignIn}></Route>
           <Route component={NotFound}></Route>
         </Switch>
       </Layout>
