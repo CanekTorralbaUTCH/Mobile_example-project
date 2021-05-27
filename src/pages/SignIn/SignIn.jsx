@@ -21,7 +21,7 @@ class SignIn extends React.Component{
             <Hero h={"15vh"}></Hero>
             <div className="container">
                 <div className="row-6">
-                    <h1>New Badge Page</h1>
+                    <h1>Sign In Page</h1>
                 </div>
                 <div className="row">
                     <BadgeForm 

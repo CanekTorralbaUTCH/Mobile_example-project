@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import HeaderBackground from '../images/badge_header.jpg'
 import "./style/Badge.css"
 
 class Badge extends Component{
