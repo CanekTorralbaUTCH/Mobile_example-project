@@ -7,10 +7,11 @@ class SignIn extends React.Component{
         loading : false,
         error: null,
         form:{
+            header_picture:"",
+            profile_picture:"",
             name:"",
             age:"",
             city:"",
-            password:"",
         }
     }
 
@@ -18,8 +19,8 @@ class SignIn extends React.Component{
         return(
             <React.Fragment>
             <Hero h={"15vh"}></Hero>
-            <div className="centered">
-                <div className="row">
+            <div className="container">
+                <div className="row-6">
                     <h1>New Badge Page</h1>
                 </div>
                 <div className="row">
