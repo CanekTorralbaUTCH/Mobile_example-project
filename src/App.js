@@ -4,6 +4,7 @@ import Layout from './pages/Layout/Layout';
 import Main from './pages/main/Main'
 import NewBadge from './pages/NewBadge/NewBadge';
 import Login from './pages/Login/Login';
+import SignIn from './pages/SignIn/SignIn';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/" component={Main}></Route>
           <Route exact path="/new" component={NewBadge}></Route>
           <Route exact path="/login" component={Login}></Route>
+          <Route exact path="/sigin" component={SignIn}></Route>
           <Route component={NotFound}></Route>
         </Switch>
       </Layout>

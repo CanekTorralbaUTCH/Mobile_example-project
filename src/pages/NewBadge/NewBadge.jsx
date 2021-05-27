@@ -16,9 +16,6 @@ class NewBadge extends React.Component{
             name:"",
             age:"",
             city:"",
-            followers:"",
-            likes:"",
-            pictures:""
         }
     }
 
