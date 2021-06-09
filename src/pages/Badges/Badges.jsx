@@ -1,5 +1,6 @@
 import React from "react"
 import SkeletonItem from "../../components/SkeletonItem"
+import BadgeList from "../../components/BadgesList"
 import api from "../../libs/api"
 import "./Badges.css"
 
@@ -19,7 +20,7 @@ class Badges extends React.Component{
     fetchData = async() =>{
         this.setState({loading: true, error: null})
         try{
-            const data = await api.Badges.list();
+            const data = await api.badges.list();
             data.reverse()
             this.setState({loading: false, data: data})
         }catch(error){
@@ -40,7 +41,8 @@ class Badges extends React.Component{
         }
         return(
             <React.Fragment>
-                <h1>All Badges</h1>
+                <div className="Badges_container"></div>
+                <BadgeList badges={this.state.data}></BadgeList>
             </React.Fragment>
         )
     }
