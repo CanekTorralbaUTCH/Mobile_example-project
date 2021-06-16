@@ -19,6 +19,32 @@ const SkeletonItem = () =>{
                             </div>
                         </div>
                     </div>
+                    
+                    <div className="BadgesListItem mt5">
+                        <div className="col-5">
+                            <div className="d-flex justify-content-center mt2">
+                                <Skeleton circle={true} height={150} width={150}></Skeleton>
+                            </div>
+                        </div>
+                        <div className="col-7">
+                            <div style={{padding: "2em"}}>
+                                <Skeleton count={5}></Skeleton>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="BadgesListItem mt5">
+                        <div className="col-5">
+                            <div className="d-flex justify-content-center mt2">
+                                <Skeleton circle={true} height={150} width={150}></Skeleton>
+                            </div>
+                        </div>
+                        <div className="col-7">
+                            <div style={{padding: "2em"}}>
+                                <Skeleton count={5}></Skeleton>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
