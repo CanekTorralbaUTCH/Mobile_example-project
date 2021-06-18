@@ -22,7 +22,7 @@ class NewBadge extends React.Component{
     handleChange = event =>{
         this.setState({
             form:{
-                ... this.state.form,
+                ...this.state.form,
                 [event.target.name]: event.target.value
             }
         })

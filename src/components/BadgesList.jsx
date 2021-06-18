@@ -8,10 +8,10 @@ class BadgesListItem extends React.Component{
                 <div className="BadgeListItem mt-5">
                     <div className="col-5">
                         <div className="Item_profilePicture">
-                            <img src={this.props.badge.profile_picture_url} alt="Profile_picture" />
+                            <img src={this.props.badge.profile_picture} alt="Profile_picture" />
                         </div>
                         <div className="Item_background">
-                            <img src={this.props.badge.header_img_url} alt="Profile_picture" />
+                            <img src={this.props.badge.header_picture} alt="Header_image" />
                         </div>
                     </div>
                     <div className="col-7 my-5">
